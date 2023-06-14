@@ -1,23 +1,16 @@
-import {  } from '@mui/icons-material'
+import { } from '@mui/icons-material'
 import React from 'react'
 import { Route,Routes } from 'react-router-dom'
-import Homepage from '../Homepage/Homepage'
-import Topnavbar from '../../Components/Topnavbar/Topnavbar'
-import LeftSideNavbar from '../../Components/LeftSideNavbar/LeftSideNavbar'
+import Dashboard from '../Dashboard/Dashboard'
+import Login from '../Login/Login'
 export const AllRoutes = () => {
   return (
     <div>
-        <div>
-            <Topnavbar/>
-        </div>
-        <div>
-            <LeftSideNavbar/>
-        </div>
-        <div>
+
           <Routes>
-            <Route path='/' element={<Homepage/>}></Route>
+            <Route path='/' element={<Dashboard/>}></Route>
+            <Route path='/login' element={<Login/>}></Route>
             </Routes>  
-        </div>
     </div>
   )
 }
