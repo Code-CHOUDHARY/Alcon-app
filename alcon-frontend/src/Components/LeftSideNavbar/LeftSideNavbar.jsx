@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export default function LeftSideNavbar() {
-  return (
-    <div>LeftSideNavbar</div>
-  )
+  return <div>New LeftSideNavbar</div>;
 }
