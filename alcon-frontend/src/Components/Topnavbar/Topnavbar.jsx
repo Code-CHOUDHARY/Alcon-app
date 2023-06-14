@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Topnavbar() {
   return (
-    <div>Topnavbar</div>
+    <div>New Topnavbar</div>
   )
 }
