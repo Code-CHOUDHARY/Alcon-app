@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Topnavbar from '../../Components/Topnavbar/Topnavbar'
 import LeftSideNavbar from '../../Components/LeftSideNavbar/LeftSideNavbar'
@@ -13,5 +14,5 @@ export default function Dashboard() {
       <ViewPostCard/>
       <RightSideNavbar/>
     </div>
-  )
+  );
 }
