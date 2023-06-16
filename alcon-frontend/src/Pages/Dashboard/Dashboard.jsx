@@ -8,9 +8,9 @@ import RightSideNavbar from '../../Components/RightSideNavbar/RightSideNavbar'
 export default function Dashboard() {
   return (
     <div>
+        <Topnavbar/>
       <div className='flex'>
         <div>
-        <Topnavbar/>
         </div>
         <div>
         <LeftSideNavbar/>
