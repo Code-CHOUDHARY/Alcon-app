@@ -1,0 +1,41 @@
+.post-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}  
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .post-card {
+      max-width: 100%;
+    }
+  }
+
+.dropdown{
+    position: relative;
+    display: block;
+
+}
+
+.dots{
+    display:inline-block;
+    cursor: pointer;
+}
+
+.dropdown-content{
+    position: absolute;
+    z-index: 1;
+
+}
+
+.dropdown-content a{
+    display: block;
+    padding: 8px 10px;
+}
+
+.dropdown:hover .dots{
+    background-color: white;
+}

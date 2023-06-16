@@ -4,15 +4,23 @@ import Topnavbar from '../../Components/Topnavbar/Topnavbar'
 import LeftSideNavbar from '../../Components/LeftSideNavbar/LeftSideNavbar'
 import Home from '../../Components/Home/Home'
 import RightSideNavbar from '../../Components/RightSideNavbar/RightSideNavbar'
-import ViewPostCard from '../../Components/Post/ViewPostCard'
+
 export default function Dashboard() {
   return (
     <div>
-      <Topnavbar/>
-      <LeftSideNavbar/>
+      <div className='flex'>
+        <div>
+        <Topnavbar/>
+        </div>
+        <div>
+        <LeftSideNavbar/>
+        </div>
+        
       <Home/>
-      <ViewPostCard/>
+      
       <RightSideNavbar/>
+      </div>
+     
     </div>
   );
 }

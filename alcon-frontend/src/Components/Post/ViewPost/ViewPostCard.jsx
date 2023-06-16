@@ -2,8 +2,10 @@
 import * as React from 'react';
 import {AspectRatio,Avatar,Box,Card,CardContent,CardOverflow,Link,IconButton,Input,Typography} from '@mui/joy';
 import { MoreHoriz, FavoriteBorder, ModeCommentOutlined, SendOutlined, Face } from '@mui/icons-material';
-import BookmarkBorderRoundedIcon from '@mui/icons-material/BookmarkBorderRounded';
-import '../Post/ViewPostCard.css'
+
+import '../ViewPost/ViewPostCard.css'
+import BookmarkToggle from '../Bookmark/BookmarkToggle'
+import LikeToggle from '../LikeButton/LikeToggle';
 export default function InstagramPost() {
   return (
     <div  class="post-card">
@@ -50,15 +52,17 @@ export default function InstagramPost() {
       </CardOverflow>
       <CardContent orientation="horizontal" sx={{ alignItems: 'center', mx: -1 }}>
         <Box sx={{ width: 0, display: 'flex', gap: 0.5 }}>
-          <IconButton variant="plain" color="neutral" size="sm">
-            <FavoriteBorder />
+          <IconButton variant="plain" color="neutral" size="lg">
+            {/* <FavoriteBorder /> */}
+            <LikeToggle/>
+
           </IconButton>
           <IconButton variant="plain" color="neutral" size="sm">
             <ModeCommentOutlined />
           </IconButton>
-          <IconButton variant="plain" color="neutral" size="sm">
+          {/* <IconButton variant="plain" color="neutral" size="sm">
             <SendOutlined />
-          </IconButton>
+          </IconButton> */}
         </Box>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5, mx: 'auto' }}>
           {[...Array(5)].map((_, index) => (
@@ -74,8 +78,9 @@ export default function InstagramPost() {
           ))}
         </Box>
         <Box sx={{ width: 0, display: 'flex', flexDirection: 'row-reverse' }}>
-          <IconButton variant="plain" color="neutral" size="sm">
-            <BookmarkBorderRoundedIcon />
+          <IconButton variant="plain" color="neutral" size="md">
+          <BookmarkToggle />
+           
           </IconButton>
         </Box>
       </CardContent>
