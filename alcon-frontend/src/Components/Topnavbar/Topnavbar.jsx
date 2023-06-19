@@ -8,7 +8,7 @@ import {
 function Topnavbar() {
   return (
     <>
-    <Navbar bg="light" className='border-2 border-black border-solid  '>
+    <Navbar bg="light" className=''>
     <Navbar.Brand href="#">
       <h3 className="pl-3">Alcon</h3>
     </Navbar.Brand>

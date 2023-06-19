@@ -2,6 +2,12 @@ import React from 'react'
 
 export default function RightSideNavbar() {
   return (
-    <div>RightSideNavbar</div>
+    <div className=''>
+      <div className='text-center mt-10'>
+         Suggested Users
+      </div>
+      
+
+    </div>
   )
 }
