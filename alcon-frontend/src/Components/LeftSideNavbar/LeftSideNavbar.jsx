@@ -17,7 +17,7 @@ const LeftSideNavbar = () => {
   return (
     <div className="sticky top-0">
       <div>
-        <h3 className="items-center">Alcon</h3>
+        {/* <h3 className="items-center">Alcon</h3> */}
         {/* <img className="w-20" src="./assets/images/alcon.svg" alt="alcon" /> */}
       </div>
 
