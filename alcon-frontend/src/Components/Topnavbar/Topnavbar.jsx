@@ -36,26 +36,6 @@ function Topnavbar() {
       </Nav>
     </Navbar.Collapse>
   </Navbar>
-    {/* <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#"><h3 className="pl-3">Alcon</h3></Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse>
-        <Nav style={{marginLeft:"1100px"}}>
-          <Nav.Link href="#">
-          <FaBell style={{ fontSize: '1.5rem' }}/>
-          </Nav.Link>
-          <NavDropdown
-            title={
-              <FaUser style={{ fontSize: '1.5rem' }}/>
-            } >
-            <NavDropdown.Item href="#"><FaUser/> My Profile</NavDropdown.Item>
-            <NavDropdown.Item href="#"><FaCog /> Settings</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#"><FaSignOutAlt /> Logout</NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar> */}
     </>
   )
 }
