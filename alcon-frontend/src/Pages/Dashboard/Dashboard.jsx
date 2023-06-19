@@ -18,7 +18,7 @@ export default function Dashboard() {
 
         <div className="flex flex-grow">
           <div className="flex-grow overflow-y-auto"><Home /></div>
-          <div className="w-1/6  item-center"><RightSideNavbar /></div>
+          <div className="w-2/6  item-center"><RightSideNavbar /></div>
         </div>
       </div>
     </div>
