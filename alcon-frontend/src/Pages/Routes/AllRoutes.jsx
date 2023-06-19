@@ -12,7 +12,7 @@ export const AllRoutes = () => {
             <Route path='/' element={<Dashboard/>}></Route>
             <Route path='/login' element={<Login/>}></Route>
             
-            </Routes>  
+          </Routes>  
     </div>
   )
 }
